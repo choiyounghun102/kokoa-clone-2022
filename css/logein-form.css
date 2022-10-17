@@ -1,0 +1,24 @@
+.login-form{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+.login-form input{
+    padding: 15px 0px;
+    margin-bottom: 25px;
+    cursor:pointer;
+    
+}
+.login-form input:not([type="submit"]){
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.4);
+    transition: border-color 0.3s ease-in-out;
+}
+.login-form a{
+    display: flex;
+    justify-content: center;
+    cursor:pointer;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}

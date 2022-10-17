@@ -1,0 +1,94 @@
+.Friends{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 15px 15px 15px;
+}
+.Friends-bar span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.Friends-bar i{
+    margin: 0px 10px;
+}
+.errer{
+    padding: 5px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.errer span{
+    font-size: 14px;
+    opacity: 0.9;
+}
+.errer i{
+    opacity: 0.2;
+    margin: 5px;
+}
+.Corinne{
+    display: flex;
+    align-items: center;
+}
+.Corinne span{
+    font-weight: 700;
+}
+.Channel{
+    margin: 0px 15px;
+}
+.Channel--box{
+    border-top: 1px solid rgba(0,0,0,0.2);
+    opacity: 0.4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Channel--box span{
+    display: flex;
+    margin: 10px 0px;
+    font-size: 10px;
+    font-weight: 500;
+}
+.Channel--talk__img{
+    display: flex;
+    align-items: center;
+    
+}
+.Channel--talk__img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.Channel--talk__img span{
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+.Channel--talk__img__tail{
+    margin-left: 339px;
+    opacity: 0.6;
+}
+@keyframes doge{
+    0% {
+        transform: scale(1,1);
+        transform: translateY(0px);
+    }
+    50%{
+        transform: scale(3,3);
+        transform: translateY(-300px);
+        
+    }
+    100%{
+        transform: scale(1,1);
+        transform: translateY(0px);
+        
+    }
+}
+.Corinne img{
+    display: flex;
+    width: 60px;
+    border-radius: 25px;
+    margin: 10px 15px;
+    position: relative;
+    animation: doge 3s ease-in infinite;
+}

@@ -1,0 +1,37 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 25px 40px 5px 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+.nav__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a{
+    text-decoration: none;
+}
+.nav__btn span{
+    font-size: 10px;
+    display: flex;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    background-color: tomato;
+    border-radius: 100px;
+    padding: 5px 0px;
+    color: white;
+    animation: rotate 1s ease-in-out infinite;
+}
+@keyframes rotate {
+    0%{
+        transform: rotateY(2turn);
+    }
+    100%{
+        transform: rotateY(4turn);
+    }
+}

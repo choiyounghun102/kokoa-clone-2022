@@ -1,0 +1,33 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+/* 리셋 */
+@import "reset.css";
+/* 시작화면 */
+@import "status-bar.css";
+@import "welcome-header.css";
+@import "logein-form.css";
+@import "no-mobile.css";
+/* 프렌즈 */
+@import "nav.css";
+@import "main.css";
+/* 색변경 */
+@import "variable.css";
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+input{
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color:  rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;color: #000;
+}
